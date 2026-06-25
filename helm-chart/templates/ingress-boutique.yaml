@@ -10,10 +10,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - shop.CAMBIA_POR_TU_IP.nip.io
+    - shop.35.255.219.242.nip.io
     secretName: online-boutique-tls
   rules:
-  - host: shop.CAMBIA_POR_TU_IP.nip.io
+  - host: shop.35.255.219.242.nip.io
     http:
       paths:
       - path: /
